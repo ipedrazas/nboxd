@@ -1,0 +1,150 @@
+#forwardtoFriendDropDown {
+  width: 170px;
+  margin: 0px 0px 0px -85px;
+  background-color: #e0e0e0;
+  border: 1px solid #cbcbcb;
+  border-top: 0px;
+  padding: 0.5em;
+  font-size: 14px;
+  position: absolute;
+  z-index : 20000;
+  top: 0px;
+  left: 50%;
+  font-family: tahoma, sans-serif;
+  color: #444;
+  padding: 0.5em;
+  box-shadow: #777 0 0 6px;
+}
+/* basic reset */
+#forwardtoFriendDropDown div,#forwardtoFriendDropDown img,#forwardtoFriendDropDown span,#forwardtoFriendDropDown input,#forwardtoFriendDropDown textarea,#forwardtoFriendDropDown ul,#forwardtoFriendDropDown li,#forwardtoFriendDropDown button
+  {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+
+#forwardtoFriendDropDown .ftf_toggleSwitch {
+  cursor: pointer;
+}
+#forwardtoFriendDropDown .ftf_toggleSwitch div {
+  padding-top: 3px;
+}
+#forwardtoFriendDropDown .ftf_toggleSwitch div.ftf_icon {
+  padding: 0px;
+  margin: 5px;
+  position: relative;
+  width: 12px;
+  height: 12px;
+  float: right;
+  overflow: hidden;
+  position: relative;
+}
+
+#forwardtoFriendDropDown .ftf_toggleSwitch .ftf_icon img {
+  position: absolute;
+  top: -12px;
+  left: 0px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent {
+  display: none;
+  clear: both;
+  padding: 1em 0px 0.5em 0px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent .ftf_fields_container {
+  position: relative;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent ul,#forwardtoFriendDropDown .ftf_mainContent li {
+  list-style: none;
+  clear: both;
+  text-align: right;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent label {
+  float: left;
+  text-align: left;
+  width: 130px;
+  padding: 4px 0px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent input,#forwardtoFriendDropDown .ftf_mainContent textarea {
+  font-size: 13px;
+  font-family: tahoma, sans-serif;
+  border: 1px solid #999;
+  width: 240px;
+  max-width: 240px;
+  padding: 4px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent  .ftf_errorMessage {
+  clear: both;
+  float: right;
+  width: 250px;
+  font-size: 12px;
+  color: #d34738;
+  padding: 0px 0px 6px 0px;
+  visibility: hidden;
+  text-align: left;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent li.ftf_required div.ftf_field:before {
+  font-size: 18px;
+  line-height: 1.5em;
+  color: #d34738;
+  content: "* ";
+}
+
+#forwardtoFriendDropDown .ftf_mainContent li.error .ftf_errorMessage {
+  visibility: visible;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent li.error input,#forwardtoFriendDropDown .ftf_mainContent li.error textarea {
+  border: 1px solid #d34738;
+  width: 240px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent .ftf_success_message {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: #E0E0E0;
+  display: none;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent .ftf_buttonContainer {
+  clear: both;
+  text-align: right;
+  padding: 1em 0px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent .ftf_buttonContainer .ftf_state_sent {
+  display: none;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent button {
+  cursor: pointer;
+  font-size: 12px;
+  border: 1px solid #aaa;
+  border-radius: 2px;
+  background-color: #ccc;
+  padding: 3px 9px;
+  margin-left: 12px;
+  font-size: 12px;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent button.sendButton,#forwardtoFriendDropDown .ftf_mainContent button.doneButton {
+  background-color: #e5752d;
+  border-color: #c56729;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent button.sendButton:HOVER,#forwardtoFriendDropDown .ftf_mainContent button.doneButton:HOVER {
+  background-color: #F87E3B;
+}
+
+#forwardtoFriendDropDown .ftf_mainContent button.cancelButton:HOVER,#forwardtoFriendDropDown .ftf_mainContent button.sendAnotherButton:HOVER {
+  background-color: #D2D4D4;
+}

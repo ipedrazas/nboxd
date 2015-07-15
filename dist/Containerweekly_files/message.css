@@ -1,0 +1,424 @@
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url('/css/fonts/opensans-regular-webfont.eot');
+    src: url('/css/fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'), url('/css/fonts/opensans-regular-webfont.woff') format('woff'), url('/css/fonts/opensans-regular-webfont.ttf') format('truetype'), url('/css/fonts/opensans-regular-webfont.svg#opensans-regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*Reset ------------------------------------------------------- */
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    font-family: inherit;
+    vertical-align: baseline;
+    outline: none;
+}
+body {
+    line-height: 1.5;
+    background: #fff;
+    margin: 1.5em 0;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+caption, th, td {
+    text-align: left;
+    font-weight: 400;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: ""
+}
+blockquote, q {
+    quotes: """"
+}
+a img {
+    border: none
+}
+em {
+    font-style: italic
+}
+strong {
+    font-weight: bold
+}
+/*  Generic styles for the subscribe/unsubscribe process pages.
+-------------------------------------------------------------------------------- */
+
+body {
+    background: #fff;
+    font: 15px/24px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #eee;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+}
+p {
+    padding: 0 0 10px 0
+}
+h2 {
+    font-size: 22px;
+    line-height: 28px;
+    margin: 0 0 10px 0;
+}
+h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+.wrapper {
+
+    margin: 0 auto 10px auto;
+    text-align: left;
+}
+.container {
+    position: relative;
+    border-width: 0 !important;
+    border-color: transparent !important;
+    margin: 0 10px 50px;
+    text-align: left;
+    border-radius: 3px;
+    background-color: #ffffff;
+    padding: 60px 80px;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+}
+.tpl-image-content {
+    padding-left: 20px
+}
+.rounded6 {
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.or {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 5px;
+    margin: 5px 5px 0 0;
+}
+.clear {
+    clear: both
+}
+/* default styles for the message body. */
+
+.message-body {
+    color: #505050;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 22px;
+    letter-spacing: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    word-wrap: break-word;
+}
+.message-body * {
+    /*margin: 1em 0;*/
+}
+.message-body h1,
+.message-body h2,
+.message-body h3,
+.message-body h4 {
+    display: block;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 125%;
+    letter-spacing: normal;
+    text-align: left;
+}
+.message-body h1 {
+    color: #000000;
+    font-size: 26px;
+}
+.message-body h2 {
+    color: #101010;
+    font-size: 22px;
+}
+.message-body h3 {
+    color: #202020;
+    font-size: 18px;
+}
+.message-body h4 {
+    color: #202020;
+    font-size: 14px;
+}
+.message-body blockquote {
+    margin-top: 32px;
+    margin-right: 0%;
+    margin-bottom: 32px;
+    margin-left: 10%;
+    padding: 0;
+
+}
+.message-body blockquote.quote {
+    border-left: 1px solid #DDDDDD;
+    color: #707070;
+    font-style: italic;
+}
+.message-body a {
+    color: #3466CC;
+    text-decoration: none;
+}
+.message-body ul, ol {
+    padding-left: 40px
+}
+/* reset things */
+
+.message-body .container {
+    padding: 0 !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+.tl-button {
+    font-family: helvetica, arial, sans-serif;
+    background-clip: padding-box;
+    border-radius: 4px;
+    color: #fff !important;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans Regular", sans-serif;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin: .2em 15px .2em 0;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    width: auto;
+    background-color: #000;
+    border: 1px solid #000;
+    -webkit-transition: opacity 0.2s ease-out;
+    -moz-transition: opacity 0.2s ease-out;
+    -o-transition: opacity 0.2s ease-out;
+    transition: opacity 0.2s ease-out;
+}
+.tl-button:hover {
+    background: #c60600;
+    text-decoration: none !important;
+}
+.tl-logo {
+    width: 35px;
+    margin: 0 auto;
+}
+.tl-logo a {
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999px;
+    outline: none;
+    background-size: contain;
+}
+#message-heading {
+    text-align: center;
+    margin-bottom: 45px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 25px;
+    position: relative;
+}
+#message-heading .date {
+   color: #999999;
+   font-size: 18px;
+}
+.subject {
+    font-size: 36px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #ED1F24;
+    line-height: 36px;
+    margin: 20px 0;
+    font-weight: 100;
+}
+.by-line {
+   font-size: 18px;
+    color: #999999;
+}
+.by-line .author {
+    color: #555;
+    text-decoration: none;
+}
+.by-line .author:hover {
+    color: #c60600;
+}
+/* creates the down arrow on the border. Manually positioned to be in the middle (600px / 2) - 20px from border-width */
+
+/*.header-arrow, .header-arrow-border {
+    left: 280px;
+    border-style: solid;
+    border-width: 20px;
+    height: 0;
+    width: 0;
+    position: absolute;
+}
+.header-arrow-border {
+    bottom: -40px;
+    border-color: #ccc transparent transparent transparent;
+}
+.header-arrow {
+    bottom: -39px;
+    border-color: #f9f9f9 transparent transparent transparent;
+}*/
+.sub-header {
+    overflow: hidden;
+    margin-bottom: 8px;
+    line-height: 25px;
+}
+.message-body {
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+/* Avoid letting elements bleed out */
+
+#message-pager {
+    background-color: #000;
+    background-color: rgba(0, 0, 0, .92);
+    left: 0;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    padding: 12px 0;
+    float: left;
+    _zoom: 1;
+    overflow: hidden;
+}
+
+.archive-link {
+    float: left;
+    margin-right: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: "Open Sans Regular", sans-serif;
+    line-height: 100%;
+    letter-spacing: 0.3px;
+    padding: 10px 12px;
+}
+.paging {
+    float: right;
+    margin-right: 10px;
+}
+.subscribe {
+    float: left;
+    margin-left: 10px;
+}
+.paging-button {
+    float: left;
+    line-height: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8px 20px;
+    margin: 0px 0;
+    font-family: "Open Sans Regular", sans-serif;
+    color: #fff !important;
+    text-indent: -9999em;
+    font-size: 1px;
+    background-repeat: no-repeat;
+    background-color: #555;
+    background-position: center center;
+    background-size: 20px 20px;
+}
+.paging-button:hover {
+    color: #fff;
+    background-color: #666;
+}
+.paging-button.disabled {
+    cursor: default;
+    color: #555 !important;
+    background-color: #222;
+}
+.paging-button.disabled:hover {
+    color: #555;
+}
+.prev {
+    border-radius: 3px 0 0 3px;
+    margin-right: 2px;
+    background-image: url(/img/icon-left-arrow.svg);
+}
+.next {
+    border-radius: 0 3px 3px 0;
+    margin-left: 2px;
+    background-image: url(/img/icon-right-arrow.svg);
+}
+.paper-stack {
+    position: relative;
+    box-shadow: ;
+}
+.paper-stack:after{
+    width: 98%;
+    height: 6px;
+    content: '';
+    position: absolute;
+    bottom: -6px;
+    display: block;
+    z-index: -1;
+    left: 1%;
+    border-radius: 0 0 3px 3px;
+    background-color: #fff;
+    -moz-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+}
+
+.message-list {
+    font-family: 'Helvetica', Arial, sans-serif;
+    font-size: 16px;
+    margin: -45px 0 0 0;
+    padding: 0 !important;
+}
+
+.message-item {
+    list-style: none;
+    margin: 0;
+    padding: 30px 0;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.message-date {
+    display: block;
+    font-size: 13px;
+    color: #9a9a9a;
+    margin-bottom: 10px;
+}
+
+.message-item .message-link {
+    display: block;
+    color: #000;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Georgia', 'Times New Roman', serif;
+    margin-bottom: 10px;
+}
+
+.message-item .message-link:hover {
+    color: #555;
+}
+
+.message-snippet {
+    margin: 0;
+    padding: 0;
+    color: #555;
+    line-height: 24px;
+}
+
+/* Helper classes */
+
+.show-on-phone {
+    display: none;
+}
+.hide-on-phone {
+    display: block;
+}

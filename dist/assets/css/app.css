@@ -1,0 +1,52 @@
+html {
+  background: url(/assets/img/background-containers.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    background-color: transparent;
+}
+.mainbox{
+    margin: 95px auto;
+    padding: 40px;
+    background-color: rgba(255,255,255,0.8);
+    width: 85%;
+
+}
+.jobs{
+
+    font-size: 24px;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    padding-left: 20px;
+}
+
+.proxyinfo{
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 70%;
+}
+
+.btnmenu{
+    width: 130px;
+    text-align: left;
+}
+.menuholder{
+    margin-top: 75px;
+}
+
+.navbar-brand{
+    font-size: 38px;
+    padding-left: 35px;
+
+}
+.container{
+    width: 100%;
+}
